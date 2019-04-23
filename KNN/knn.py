@@ -59,6 +59,8 @@ for i in range(k):
 
 if y>n:
     print("predicted Class:","large")
+elif y<n: 
+    print("predicted class:", "medium")
 else:
-    print("predicted Class:","medium")
+    print("point lies on boreder")
 
